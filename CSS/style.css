@@ -1,0 +1,23 @@
+
+.general
+{
+	text-align: center;
+}
+.admin_title
+{
+	background: #6A4B31;
+	color: #fff;
+	margin-left: 50px;
+	margin-right: 50px;
+	height: 140px;
+	line-height: 140px;
+}
+.dashboard
+{
+	background: aquamarine;
+	color: black;
+	margin-left: 50px;
+	margin-right: 50px;
+	height: 140px;
+	font-size: 20px;
+}
