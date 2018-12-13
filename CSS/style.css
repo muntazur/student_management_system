@@ -21,3 +21,19 @@
 	height: 140px;
 	font-size: 20px;
 }
+.add_student
+{
+	background: yellow;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-top: 88px;
+	height: 371px;
+}
+input
+{
+	background: none;
+	height: 36px;
+	font-size: 20px;
+	text-align: center;
+	margin:5px;
+}
