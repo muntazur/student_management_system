@@ -1,4 +1,16 @@
-
+body
+{
+	
+}
+.details
+{
+	background: silver;
+	padding-top: 17px;
+	padding-bottom: 25px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
 .general
 {
 	text-align: center;
@@ -28,6 +40,36 @@
 	margin-right: 50px;
 	padding-top: 88px;
 	height: 371px;
+}
+
+.update_student
+{
+	background: yellow;
+	margin-left: 50px;
+	margin-right: 50px;	
+}
+.edit_container
+{
+	align:center;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+table,th,td
+{
+	border:1px solid;
+}
+table
+{
+	width:100%;
+}
+th
+{
+	background: gray;
+	color:white;
+}
+td
+{
+	text-align: center;
 }
 input
 {

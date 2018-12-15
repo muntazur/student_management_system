@@ -38,3 +38,53 @@
 	</div>
 
 </body>
+
+
+<?php
+
+	if(isset($_POST['submit']))
+	{
+		$standerd = $_POST['std'];
+		$roll = $_POST['roll'];
+
+		include('db_connect.php');
+
+	    $query = "SELECT * FROM `student` WHERE `standerd` = '$standerd' AND `roll` = '$roll'";
+	    $run = mysqli_query($conn,$query); 
+
+	    if(mysqli_num_rows($run)<1)
+	    {
+	    	?>
+
+	    		<script type="text/javascript">
+	    			alert('student not found');
+	    		</script>
+
+	    	<?php
+	    }
+	    else
+	    {   
+	    	$data = mysqli_fetch_assoc($run);
+	    	?>
+	    		<div class = "details" align="center">
+	    			<h3> Student Details</h3>
+	    			<img src="/dataimage/<?php echo $data['image']; ?>" >
+	    			<br>
+	    			<label>Name: <?php echo $data['name']; ?></label>
+	    			<br>
+	    			<label>standerd: <?php echo $data['standerd']; ?></label>
+	    			<br>
+	    			<label>Roll: <?php echo $data['roll']; ?></label>
+	    			<br>
+	    			<label>city: <?php echo $data['city']; ?></label>
+	    			<br>
+	    			<label>parents contact: <?php echo $data['p_contact']; ?></label>
+	    			
+
+	    		</div>
+
+	    	<?php
+	    }
+
+	}
+?>

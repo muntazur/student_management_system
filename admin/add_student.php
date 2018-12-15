@@ -22,7 +22,7 @@
 
 	<div class = "add_student" align="center">
 
-		<form action="" method="post" enctype="multipart/form-data">
+		<form action="add_student.php" method="post" enctype="multipart/form-data">
 			<label>Roll No: </label>
 			<input type="text" name="roll" placeholder="Enter your roll no" required>
 			<br>

@@ -29,11 +29,9 @@
    				<td>1.</td><td> <a href="add_student.php">Insert Student Details</a></td>
    			</tr>
    			<tr>
-   				<td>2.</td><td> <a href="update_student.php">Update Student Details</a></td>
+   				<td>2.</td><td> <a href="update_student.php">Update Student Details or Delete</a></td>
    			</tr>
-   			<tr>
-   				<td>3.</td><td> <a href="delete_student.php">Delete Students Details</a></td>
-   			</tr>
+   		
    			
    		</table>
 
